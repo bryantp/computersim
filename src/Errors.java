@@ -1,0 +1,18 @@
+public interface Errors{
+	
+	
+	enum errors {
+		INVALID_INSTRUCTION,
+		SYS_KILL, 
+		INVALID_OPCODE, 
+		STACK_EMPTY, 
+		INVALID_TYPE_CODE, 
+		INVALID_ADDRESS,
+		INVALID_OPERANDS_NaN,
+		INVALID_REGISTER,
+		MEM_WRITE_ERROR, 
+		OVERFLOW
+	};
+	
+	
+}

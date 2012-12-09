@@ -1,0 +1,26 @@
+#Program to demonstrate multiplication and register operations. 
+0000000101010000 #Loads the number 5 into location 0 
+0000000101110001 #Loads the number 7 into location 1
+0000000110110010 #Loads the number 11 into location 2
+1101000100000001 #Multpilies the numbers in location 0 and 1 
+0001000100000011 #Pops the result off the stack and puts in in location 3
+1100000100000011 #Displays the contents of location 3. 
+01000000 #Continue 
+0000000101010000 #Loads the number 5 into location 0 
+0000000101110001 #Loads the number 7 into location 1
+0000000110110010 #Loads the number 11 into location 2
+1011000100000010 #Divides the numbers in location 0 and 2 
+0001000100000011 #Pops the result off the stack and puts in in location 3
+1100000100000000 #Displays the contents of location 0
+1100000100000010 #Displays the contents of location 2 
+1100000100000011 #Displays the contents of location 3. 
+1010011100000010 #Writes the contents of location 3 into register 0 
+01000000 #Continue 
+0101011100000100 #Read from register 0 and put it into location 4 
+1100000100000100 #Display the contents of location 4. 
+0000000111110000 #Loads the number 15 into location 0 
+0000000110100001 #Loads the number 10 into location 1
+1001000100000001 #Multpilies the numbers in location 0 and 1 
+0001000100000011 #Pops the result off the stack and puts in in location 3
+1100000100000011 #Displays the contents of location 3. 
+01110000 #HALT

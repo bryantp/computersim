@@ -1,0 +1,19 @@
+#Simple program to add two numbers and display them also shows how to use continue op code. 
+0000000100010000 #Loads the number 1 to memory location 0
+0000000100100001 #Loads the number 2 to memory location 1
+0011000100000001 #Adds the numbers in location 0 and location 1
+0001000100000010 #Pops the result of the add operation off the stack, and loads it into location 2
+1100000100000010 #Displays the contents of location 2
+01000000 #Continue 
+0000000100100000 #Loads the number 2 to memory location 0
+0000000100100001 #Loads the number 2 to memory location 1
+0011000100000001 #Adds the numbers in location 0 and location 1
+0001000100000010 #Pops the result of the add operation off the stack, and loads it into location 2
+1100000100000010 #Displays the contents of location 2
+01000000 #Continue 
+0000000100110000 #Loads the number 3 to memory location 0
+0000000100100001 #Loads the number 2 to memory location 1
+0011000100000001 #Adds the numbers in location 0 and location 1
+0001000100000010 #Pops the result of the add operation off the stack, and loads it into location 2
+1100000100000010 #Displays the contents of location 2
+01110000 #HALT 
